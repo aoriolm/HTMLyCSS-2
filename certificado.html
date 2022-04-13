@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Certificado autoresponsable | Información actualizada sobre la Covid19</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="author" content="Alexandre Oriol">
+    <meta name="description" content= "Generar el Certificado autoresponsable de desplazamiento por la crisis sanitaria por la COVID-19">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header id="pre-header">
+        <div id="main-header">
+            <a href="index.html">
+                <img id="logo-img" alt="Infocovid" title="Infocovid" src="/img/infocovid.svg">
+            </a>
+                <div id="izquierda">
+                    <nav>
+                        <ul id="nav">
+                            <li><a class="link_nav" href="medidas_bienestar.html">Medidas de bienestar</a></li>
+                            <li>|</li>
+                            <li><a class="link_nav" href="web_salut.html">Los datos</a></li>
+                            <li>|</li>
+                            <li><a class="link_nav_active" href="certificado.html">Certificado autoresponsable</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </div><!-- / #main-header -->
+    </header>
+
+    <main id="main-content">
+
+        <h1 class="h1-paginas">Certificado autoresponsable de desplazamiento por la crisis sanitaria por la COVID-19</h1>
+
+        
+        <p id="sombreado"><span>Los campos señalados con * son obligatorios.</span></p>
+        
+        
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div class="en-linea2">
+                    <div class="en-columna">
+                        <label for="nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre_usuario" required minlength="2" maxlength="64" pattern="^[a-zA-Z](?:[ '\-a-zA-Z]*[a-zA-Z])?$">
+                    </div>
+                    <div class="en-columna">
+                        <label for="apellido1">Primer apellido *</label>
+                        <input type="text" id="apellido1" name="apellido1_usuario" required minlength="2" maxlength="128" pattern="^[a-zA-Z](?:[ '\-a-zA-Z]*[a-zA-Z])?$">
+                    </div>
+                    <div class="en-columna">
+                        <label for="apellido2">Segundo apellido</label>
+                        <input type="text" id="apellido2" name="apellido2_usuario">
+                    </div>
+                </div>
+
+                <div class="en-linea2">
+                    <div class="en-columna">
+                        <label for="dni">Documento de identificación *</label>
+                        <select id="dni"  name="dni">
+                            <option value="DNI/NIF">DNI/NIF</option>
+                            <option value="NIE">NIE</option>
+                            <option value="PASAPORTE">PASAPORTE</option>
+                        </select>
+                    </div>
+                    
+                  
+                    <div class="en-columna">
+                        <label for="blank">#</label>
+                        <input type="text" id="blank"  name="blank" required>
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Trayecto</legend>
+                
+                    <div class="en-columna">
+                        <label for="dni">Fecha de desplazamiento *</label>
+                        <input type="date" id="fecha"  name="fecha_usuario" required>
+                    </div>
+                    
+                    <p>Certifico que mi desplazamiento está relacionado con la actividad especificada a continuación (marcad la casilla):</p>
+                    
+                    <ul id="lista-check">
+                        <li>
+                            
+                            <input type="checkbox" checked id="alimentos" name="alimentos" value="alimentos">
+                            <label for="alimentos">Adquisición de alimentos, productos farmacéuticos y de primera necesidad.</label>
+                        
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="sanitario" name="sanitario" value="sanitario">
+                            <label for="sanitario">Asistencia a centro, servicio o establecimiento sanitario.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="trabajo" name="trabajo" value="trabajo">
+                            <label for="trabajo">Desplazamiento al lugar de trabajo para efectuar la prestación laboral, profesional o empresarial.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="residencia" name="residencia" value="residencia">
+                            <label for="residencia">Regreso al lugar de residencia habitual.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="dependientes" name="dependientes" value="dependientes">
+                            <label for="dependientes">Asistencia o atención a personas mayores, menores de edad, dependientes, personas con discapacidad o personas especialmente vulnerables.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="banco" name="banco" value="banco">
+                            <label for="banco">Desplazamiento entidad financiera o de seguro.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="fuerza_mayor" name="fuerza_mayor" value="fuerza_mayor">
+                            <label for="fuerza_mayor">Causa de fuerza mayor o situación de necesidad.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="adolescentes" name="adolescentes" value="adolescentes">
+                            <label for="adolescentes">Salida de niños y adolescentes.</label>
+                        </li>
+
+                        <li>
+                            <ul id="lista-radio">
+                                <li>Número de menores:</li>
+                                <li>
+                                    <input type="radio" id="nino1" name="nino" value="nino1">
+                                    <label for="nino1">1</label>                                        
+                                </li>
+                                <li>
+                                    <input type="radio" id="nino2" name="nino" value="nino2">
+                                    <label for="nino2">2</label>                                        
+                                </li>
+                                <li>
+                                    <input type="radio" id="nino3" name="nino" value="nino3">
+                                    <label for="nino3">3</label>                                        
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="paseos" name="paseos" value="paseos">
+                            <label for="paseos">Salida paseos mayores de 70 años y dependientes.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" id="deporte" name="deporte" value="deporte">
+                            <label for="deporte">Salida actividad física y paseo a partir de 14 años.</label>
+                        </li>
+
+                    </ul>
+            
+            </fieldset>
+
+            <fieldset>
+                <legend>Dirección de origen</legend>
+                <div class="en-linea2">
+                    <div class="en-columna">
+                        <label for="codigo_origen">Código Postal *</label>
+                        <input type="text" id="codigo_origen" name="codigo_origen" required>
+                    </div>
+                    <div class="en-columna">
+                        <label for="provincia_origen">Provincia *</label>
+                        <input type="text" id="provincia_origen" name="provincia_origen" required>
+                    </div>
+                    <div class="en-columna">
+                        <label for="comarca_origen">Comarca</label>
+                        <input type="text" id="comarca_origen" name="comarca_origen">
+                    </div>
+                </div>
+
+                <div class="en-linea2">
+                    <div class="en-columna">
+                        <label for="municipio_origen">Municipio *</label>
+                        <input type="text" id="municipio_origen" name="municipio_usuario_origen" required>
+                    </div>
+                
+                </div>
+  
+            </fieldset>
+
+            <fieldset>
+                <legend>Dirección de destino</legend>
+                <div class="en-linea2">
+                    <div class="en-columna">
+                        <label for="codigo_destino">Código Postal *</label>
+                        <input type="text" id="codigo_destino" name="codigo_destino" required>
+                    </div>
+                    <div class="en-columna">
+                        <label for="provincia_destino">Provincia *</label>
+                        <input type="text" id="provincia_destino" name="provincia_destino" required>
+                    </div>
+                    <div class="en-columna">
+                        <label for="comarca_destino">Comarca</label>
+                        <input type="text" id="comarca_destino" name="comarca_destino">
+                    </div>
+                </div>
+
+                <div class="en-linea2">
+                    <div class="en-columna">
+                        <label for="municipio_destino">Municipio *</label>
+                        <input type="text" id="municipio_destino" name="municipio_destino" required>
+                    </div>
+                
+                </div>
+  
+            </fieldset>
+
+        
+
+        <div id="cortado">
+            <p class="bold">Información básica relativa a la protección de datos</p>
+            <p>Le informamos que los datos recogidos serán tratadas por la Dirección General de Administración Digital, del Departamento de Políticas Digitales y Administración Pública de la Generalitat de Cataluña, para apoyarle en la elaboración de la declaración autoresponsable. Podrá ejercer los derechos de acceso, rectificació, supressió, oposició al tractament i sol·licitud de limitació de les dades mitjançant el següent enllaç: <a class="link_interno" href="http://politiquesdigitals.gencat.cat/ca/pgov_departament/proteccio-de-dades/drets-de-les-persones-interessades/" target="_blank">http://politiquesdigitals.gencat.cat/ca/pgov_departament/proteccio-de-dades/drets-de-les-persones-interessades/</a></p>
+            <!-- Sobre este link no se especifica nada, así que entiendo que se considera como los links que hay en el texto-->
+        </div>
+
+        <button class="button1" type="submit">Generar certificado</button>
+        </form>
+
+        <p>Fuente: <a class="link_interno" href="https://certificatdes.confinapp.cat/" target="_blank">Certificado autoresponsable de desplazamiento por la crisis sanitaria por la COVID-19</a></p>
+        <!-- Sobre este link no se especifica nada, así que entiendo que se considera como los links que hay en el texto-->
+    </main>
+
+    <footer id="pre-footer">
+        <div id="main-footer">
+            <p id="p-footer">2020 © Alexandre Oriol Mena</p>
+            <ul id="ul-footer">
+                <li><a class="link_footer" href="">Aviso legal</a></li>
+                <li><a class="link_footer" href="">Política de privacidad</a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

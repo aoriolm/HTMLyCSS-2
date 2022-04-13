@@ -1,0 +1,465 @@
+#Covid_body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("../img/home.jpg") no-repeat center fixed;     
+    background-size: cover;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(252,252,252);
+}
+
+/*
+ * Index footer
+ */
+
+#indexfooter {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 1.75rem;
+    color: white;
+    line-height: 0.5;
+}
+
+.link_index:link {
+    color:#A01127;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+/*
+ * Cabecera
+ */
+
+#pre-header {
+	background: #F0F1F3;
+	height: 83px;
+}	
+
+#main-header, #main-footer {
+	width: 100%;
+	max-width: 850px;
+    margin: auto;
+}
+
+#logo-img {
+    height: 25px;
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+#centro{
+    text-align: center;
+    color: #77AFDF;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#izquierda{
+    text-align: left;
+    font-size: 1.13rem;
+    font-weight: 700;
+}
+
+#nav {
+    padding-left: 0px;
+}
+
+#nav li {
+    color: #77AFDF;
+    display: inline;
+	padding: 0 3px 0 3px;
+}
+
+#main-content {
+    width: 100%;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+.link_nav:link {
+    color: #77AFDF;
+    text-decoration: none;
+}
+
+.link_nav:visited {
+    color: #77AFDF;
+}
+
+.link_nav:hover {
+    color: #A01127;
+    text-decoration: underline;
+}
+
+
+.link_nav_active:link {
+    color: #77AFDF;
+    text-decoration: underline;
+}
+
+.link_nav_active:visited {
+    color: #77AFDF;
+}
+
+.link_nav_active:hover {
+    color: #A01127;
+    text-decoration: underline;
+}
+
+.link_interno:link {
+    color: #77AFDF;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.link_interno:hover {
+    color: #A01127;
+    text-decoration: none;
+}
+
+.table{ 
+	display:table; 
+	width:100%; 
+	height:700px; 
+} 
+.row{ 
+	display:table-row; 
+	width:100%; 
+	height:100%; 
+} 
+.cell{ 
+	display:table-cell; 
+	width:100%; 
+	height:100%; 
+	vertical-align:middle; 
+} 
+.container{ 
+	display:block; 
+	position:relative; 
+	width:100%; 
+	height:50%; 
+} 
+
+#imagotipo{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#h1_centrado {
+    text-align: center;
+    color: #A01127;
+}
+
+.h1-paginas {
+    font-size: 2.25rem;
+    color: #A01127;
+    font-weight: 700;
+}
+
+.h2-paginas {
+    font-size: 2rem;
+    color: #A01127;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+.hr-rojo {
+    height: 1px;
+    background-color: #A01127;
+    border: none;
+}
+
+.h3-paginas {
+    font-size: 1.5rem;
+    color: #77AFDF;
+    font-weight: 700;
+}
+
+#p-margen{
+    padding-top: 5px;
+}
+
+p {
+    font-size: 1.15rem;
+}
+
+.inicial-roja {
+    color: #A01127;
+    font-weight: 700;
+}
+
+ol {
+    font-size: 1.5rem;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 1.15rem;
+    padding-left: 28px;
+}
+
+.p-li {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+ul li {
+    line-height: 1.5;
+}
+
+ul li:last-child {
+    margin-bottom: 10px;
+}
+
+#lista-salut {
+    list-style-type: disc;
+    font-size: 1.15rem;
+    padding-left: 28px;
+}
+
+#lista-salut li {
+    line-height: 1.5;
+}
+
+#lista-salut li:last-child {
+    margin-bottom: 10px;
+}
+
+#videos {
+    width: 71%;
+    margin: auto;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    margin-left: 57px;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 81%;
+  }
+
+#pre-footer {
+    background-color: #BBB;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+#ul-footer, #p-footer {
+padding-left: 0px;
+font-size: 1.2rem;
+}
+
+#ul-footer li {
+    display: inline;
+	padding: 0 3px 0 0;
+}
+
+.link_footer:link {
+    color: white;
+    text-decoration: none;
+}
+
+.link_footer:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link_footer:hover {
+    color: #A01127;
+    text-decoration: underline;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th:nth-child(1) {
+    width: 20%;
+}
+  
+th:nth-child(2) {
+    width: 55%;
+}
+  
+th:nth-child(3) {
+    width: 25%;
+}
+
+
+td {
+    font-size: 1.15rem;
+    padding: 6px 6px 6px 6px;
+    line-height: 1.5;
+}
+
+th {
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid black;
+}
+
+#table2 {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.th2:nth-child(1) {
+    width: 15%;
+}
+  
+.th2:nth-child(2) {
+    width: 85%;
+}
+
+.negrita {
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+#caption-derecha {
+    text-align: right;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+#caption-izquierda {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.azul-claro {
+    background-color: rgba(119, 175, 223,0.2);
+}
+
+.azul-oscuro {
+    background-color: rgba(119, 175, 223,0.4);
+}
+
+/* Formulario */
+
+#sombreado span{
+    background-color: lightgrey;
+}
+
+form {
+    font-size: 1.2rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+fieldset {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#en-linea, #en-linea2 {
+    display: inline-block;
+    width: 100%;
+    }
+
+.en-columna {
+    display:inline-block;
+    width: 33%;
+    padding-top: 10px;
+}
+
+#dni {
+    width: 88%;
+}
+
+
+.en-columna label, .en-columna input, .en-columna select {
+    display: block;
+    width: 85%;
+}
+
+label[for="blank"]
+{
+    display:none;
+}
+
+#lista-check {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#lista-radio {
+    list-style-type: none;
+}
+
+input[type=radio] {
+    border: 0px;
+    height: 8px;
+}
+
+input[type=checkbox] {
+    border: 0px;
+    height: 10px;
+}
+
+#cortado {
+    margin-left: 0px;
+	margin-right: auto;
+    width: 74%;
+    padding-bottom: 20px;
+}
+
+ #cortado p {
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.button1 {
+    background-color:#A01127;
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:1.5rem;
+	padding:7px 25px;
+	text-decoration:none;
+}
+
